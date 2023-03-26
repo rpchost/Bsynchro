@@ -20,5 +20,6 @@ namespace Insurance.Controllers
             await _account.CreateAccount(CustomerId, InitialCredit);
             return Ok();
         }
+		
     }
 }
